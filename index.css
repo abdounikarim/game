@@ -1,0 +1,62 @@
+body{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Lora', serif;
+}
+#boardOne, #boardTwo{
+    background-color: #00BFFF;
+    flex: 1;
+    text-align: center;
+}
+#tray {
+    width: 640px;
+    margin: auto;
+    border: solid 1px black;
+    padding-top: 4px;
+}
+#tray h1{
+    text-align: center;
+}
+
+div {
+    height: 60px;
+    width: 60px;
+    border: solid 2px black;
+    display: inline-block;
+    margin-top: -4px;
+    margin-bottom: -4px;
+}
+button{
+    display: block;
+    margin: auto;
+}
+aside{
+    background-color: white;
+    position: absolute;
+    display: block;
+    top: 150px;
+    margin-left: 10px;
+    width: 23%;
+}
+
+#picture {
+    width: 100%;
+    position: relative;
+    bottom: 15px;
+}
+
+.player1, .player2, .weapon1, .weapon2, .weapon3 {
+    margin-top: -22px;
+    position: relative;
+    top: 18px;
+}
+.player1{
+    background-image: url("img/one.png");
+    background-size: 100%;
+    z-index: 1;
+}
+.player2{
+    background-image: url("img/two.png");
+    background-size: 100%;
+    z-index: 1;
+}
